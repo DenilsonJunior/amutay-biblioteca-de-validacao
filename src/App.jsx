@@ -1,17 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import { Card } from './componentes/card/Card';
+import React, { useState } from 'react';
+
+import './App.css';
+import { Slider } from './componentes/slider/Slider';
+import { Header } from './componentes/header/Header';
 
 function App() {
-    // const [count, setCount] = useState(0)
+    // Exemplo de uso de estado
+    // const [count, setCount] = useState(0);
 
     return (
         <>
-            <Card />
+            <Header />
+            <Slider />
         </>
-    )
+    );
 }
 
-export default App
+export default App;
