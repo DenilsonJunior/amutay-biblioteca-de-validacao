@@ -18,15 +18,16 @@ export const CardItem = styled.div`
             }
         }
         .card {
-            background-color: rgba(255, 255, 255, .9);
+            background-color: rgba(255, 255, 255, .1);
             width: 100%;
             height: auto;
-            /* padding: 2rem 1rem; */
-            box-shadow: 0.3rem 0.3rem 1rem #0002;
+            padding: 1rem;
+            box-shadow: 0.3rem 0.3rem 0.4rem rgba(255, 255, 255, 0.1);
             border-radius: .3rem;
             position: relative;
             display: block;
             overflow: hidden;
+            border-radius: 1rem;
             .pn {
                 background-color: #000;
                 position: absolute;
@@ -50,15 +51,18 @@ export const CardItem = styled.div`
                 /* background-color: #0005; */
             }
             .title {
-                background-color: #0009;
-                backdrop-filter: blur(5px);
-                margin: 0;
+                /* background-color: #0009; */
+                /* backdrop-filter: blur(5px); */
+                margin: 1rem 0 0;
                 width: 100%;
                 display: flex;
                 flex-direction: column;
                 padding: .5rem;
-                position: absolute;
+                /* position: absolute; */
                 bottom: -5rem;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
                 p {
                     color: white;
                     margin: 0;

@@ -30,7 +30,23 @@ body {
     justify-content: center; */
     min-height: 100vh;
     background-color: var(--esc);
-    padding-top: 10rem;
+    /* background-image: url(./assets/img/bg.jpg); */
+    background-size: cover;
+    background-position: center;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+    .container {
+        width: 95%;
+        max-width: 1400px;
+        background-color: rgba(0, 0, 0, .1);
+        backdrop-filter: blur(5px);
+        position: relative;
+        padding: 15rem 2rem 2rem;
+        border-radius: 4rem;
+        margin: 2rem auto;
+    }
 }
 
 /* #root {

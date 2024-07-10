@@ -39,7 +39,7 @@ export const Card = (props) => {
 
     return (
         <CardItem>
-            <a href="">
+            <a href={props.link} target="_blank">
                 <div className="card">
                     <div className="pn">
                         <h2>{props.pn}</h2>
