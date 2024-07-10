@@ -15,7 +15,7 @@ export const Slider = () => {
     useEffect(() => {
         function handleResize() {
             if (window.innerWidth < 480) {
-                setSlideView(1);
+                setSlideView(2);
             } else if (window.innerWidth < 1080) {
                 setSlideView(3);
             } else {
