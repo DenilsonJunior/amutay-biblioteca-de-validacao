@@ -19,7 +19,7 @@ export const Cabecalho = styled.header`
         height: 8rem;
         filter: drop-shadow(0.2rem 0.2rem 0.3rem #0008);
         @media (max-width: 650px) {
-            height: 7rem;
+            height: 10rem;
         }
     }
 
