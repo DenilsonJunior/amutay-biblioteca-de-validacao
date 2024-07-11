@@ -1,6 +1,7 @@
-h2 {
+h1 {
     color: white !important;
     margin: 0 5%;
+    text-transform: uppercase;
     @media (max-width: 650px) {
         text-align: center;
     }

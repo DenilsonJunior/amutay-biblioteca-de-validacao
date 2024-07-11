@@ -1,6 +1,6 @@
 [
     {
-        "jornada": "Jornada 4",
+        "jornada": "Jornada - 4",
         "cards": [
             {
                 "link": "https://09pnmfatores-8on04lxto-devnilson.vercel.app/",
@@ -40,7 +40,7 @@
         ]
     },
     {
-        "jornada": "Jornada 3",
+        "jornada": "Jornada - 3",
         "cards": [
             {
                 "link": "https://lib3-pn1.vercel.app/",
@@ -60,7 +60,7 @@
         ]
     },
     {
-        "jornada": "Jornada 2",
+        "jornada": "Jornada - 2",
         "cards": [
             {
                 "link": "https://lib2-pn2.vercel.app/",
@@ -110,7 +110,7 @@
         ]
     },
     {
-        "jornada": "Jornada 1",
+        "jornada": "Jornada - 1",
         "cards": [
             {
                 "link": "https://lib1-pn1.vercel.app/",

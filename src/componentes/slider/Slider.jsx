@@ -37,7 +37,7 @@ export const Slider = () => {
         <>
             {itens.map((jornada, index) => (
                 <div key={index}>
-                    <h2>{jornada.jornada}</h2>
+                    <h1>{jornada.jornada}</h1>
                     <Swiper
                         slidesPerView={slideView}
                         spaceBetween={10}
