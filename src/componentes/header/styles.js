@@ -16,10 +16,10 @@ export const Cabecalho = styled.header`
     justify-content: center;
 
     .logo {
-        height: 10rem;
+        height: 8rem;
         filter: drop-shadow(0.2rem 0.2rem 0.3rem #0008);
         @media (max-width: 650px) {
-            height: 8rem;
+            height: 7rem;
         }
     }
 
