@@ -10,16 +10,16 @@ export const Cabecalho = styled.header`
     /* position: absolute; */
     top: 0;
     z-index: 2;
-    margin-bottom: 8rem;
+    margin-bottom: 6rem;
     display: flex;
     align-items: center;
     justify-content: center;
 
     .logo {
-        height: 6rem;
+        height: 10rem;
         filter: drop-shadow(0.2rem 0.2rem 0.3rem #0008);
         @media (max-width: 650px) {
-            height: 4rem;
+            height: 8rem;
         }
     }
 

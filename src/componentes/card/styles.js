@@ -46,10 +46,36 @@ export const CardItem = styled.div`
                     margin: 0;
                 }
             }
-            img {
-                width: 100%;
+            .boxImage {
+                position: relative;
+                width: auto;
                 height: auto;
-                /* background-color: #0005; */
+                animation-duration: .5s;
+                border: solid .1rem white;
+                padding: 0rem .2rem;
+                img {
+                    width: 100%;
+                    height: auto;
+                    /* background-color: #0005; */
+                }
+                .boxPlay {
+                    animation-duration: .5s;
+                    display: none;
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    background-color: #0009;
+                    backdrop-filter: blur(.2rem);
+                    top: 0;
+                    left: 0;
+                    align-items: center;
+                    justify-content: center;
+                    svg {
+                        color: white;
+                        font-size: 4rem;
+                        filter: drop-shadow(0.2rem 0.2rem 0.3rem #0008);
+                    }
+                }
             }
             .title {
                 /* background-color: #0009; */
@@ -68,6 +94,14 @@ export const CardItem = styled.div`
                     color: white;
                     margin: 0;
                     /* background-color: #0005; */
+                }
+            }
+
+            &:hover {
+                .boxImage {
+                    .boxPlay {
+                        display: flex;
+                    }
                 }
             }
         }

@@ -1,5 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { CardItem } from './styles';
+import { PiPlayCircleLight } from "react-icons/pi";
 
 export const Card = (props) => {
     const titleRef = useRef(null);
@@ -44,7 +45,12 @@ export const Card = (props) => {
                     <div className="pn">
                         <h2>{props.pn}</h2>
                     </div>
-                    <img src={`./assets/img/${props.img}`} alt={props.title} />
+                    <div className="boxImage">
+                        <img src={`./assets/img/${props.img}`} alt={props.title} />
+                        <div className="boxPlay">
+                            <PiPlayCircleLight />
+                        </div>
+                    </div>
                     <div className="title" style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
                         <p ref={titleRef}>{props.title}</p>
                     </div>
