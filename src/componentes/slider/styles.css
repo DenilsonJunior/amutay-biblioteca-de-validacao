@@ -1,5 +1,6 @@
 h1 {
-    color: white !important;
+    /* color: white !important; */
+    color: black !important;
     margin: 0 5%;
     text-transform: uppercase;
     @media (max-width: 650px) {
@@ -28,11 +29,11 @@ h1 {
 }
 
 .swiper-scrollbar-drag {
-    background-color: white !important;
+    background-color: #6c9089 !important;
 }
 
 .swiper-button-next, .swiper-button-prev {
-    color: white;
+    color: #6c9089;
     filter: drop-shadow(0.2rem 0.2rem 0.3rem #0008);
     top: 0;
     width: 5%;
@@ -54,6 +55,6 @@ h1 {
 }
 
 .swiper-pagination-bullet-active {
-    background-color: white !important;
+    background-color: #6c9089 !important;
     filter: drop-shadow(0.2rem 0.2rem 0.3rem #0008);
 }

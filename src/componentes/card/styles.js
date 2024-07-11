@@ -19,7 +19,8 @@ export const CardItem = styled.div`
         }
         .card {
             /* background-color: rgba(255, 255, 255, .1); */
-            background-color: #101b25;
+            /* background-color: #101b25; */
+            background-color: #f0f0ee;
             width: 100%;
             height: auto;
             padding: 1rem;
@@ -47,6 +48,7 @@ export const CardItem = styled.div`
                 }
             }
             .boxImage {
+                box-shadow: 0.3rem 0.3rem 0.4rem rgba(0, 0, 0, .4);
                 position: relative;
                 width: auto;
                 height: auto;
@@ -64,7 +66,7 @@ export const CardItem = styled.div`
                     position: absolute;
                     width: 100%;
                     height: 100%;
-                    background-color: #0009;
+                    background-color: rgba(255, 255, 255, .4);
                     backdrop-filter: blur(.2rem);
                     top: 0;
                     left: 0;
@@ -91,7 +93,8 @@ export const CardItem = styled.div`
                 text-overflow: ellipsis;
                 white-space: nowrap;
                 p {
-                    color: white;
+                    /* color: white; */
+                    color: black;
                     margin: 0;
                     /* background-color: #0005; */
                 }

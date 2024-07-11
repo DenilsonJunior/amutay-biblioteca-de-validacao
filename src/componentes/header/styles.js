@@ -6,8 +6,10 @@ export const Cabecalho = styled.header`
     /* backdrop-filter: blur(5px); */
     display: flex;
     /* justify-content: flex-end; */
+    box-shadow: 0.3rem 0.3rem 0.4rem rgba(0, 0, 0, .4);
     padding: 1rem 5%;
-    /* position: absolute; */
+    position: sticky;
+    background-color: #6c9089;
     top: 0;
     z-index: 2;
     margin-bottom: 6rem;
@@ -19,7 +21,7 @@ export const Cabecalho = styled.header`
         height: 8rem;
         filter: drop-shadow(0.2rem 0.2rem 0.3rem #0008);
         @media (max-width: 650px) {
-            height: 10rem;
+            height: 7rem;
         }
     }
 
