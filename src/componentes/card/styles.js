@@ -24,11 +24,12 @@ export const CardItem = styled.div`
             width: 100%;
             height: auto;
             padding: 1rem;
-            box-shadow: 0.3rem 0.3rem 0.4rem rgba(0, 0, 0, .4);
+            box-shadow: 0.3rem 0.3rem 0.4rem rgba(0, 0, 0, .2);
             position: relative;
             display: block;
             overflow: hidden;
             border-bottom: solid .2rem white;
+            margin-bottom: 1rem;
             /* border-radius: 1rem; */
             .pn {
                 background-color: #000;
@@ -48,7 +49,7 @@ export const CardItem = styled.div`
                 }
             }
             .boxImage {
-                box-shadow: 0.3rem 0.3rem 0.4rem rgba(0, 0, 0, .4);
+                box-shadow: 0.3rem 0.3rem 0.4rem rgba(0, 0, 0, .2);
                 position: relative;
                 width: auto;
                 height: auto;

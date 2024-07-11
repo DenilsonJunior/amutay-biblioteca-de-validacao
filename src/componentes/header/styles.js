@@ -6,7 +6,7 @@ export const Cabecalho = styled.header`
     /* backdrop-filter: blur(5px); */
     display: flex;
     /* justify-content: flex-end; */
-    box-shadow: 0.3rem 0.3rem 0.4rem rgba(0, 0, 0, .4);
+    box-shadow: 0rem 0.3rem 0.6rem rgba(0, 0, 0, .4);
     padding: 1rem 5%;
     position: sticky;
     background-color: #6c9089;

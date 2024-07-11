@@ -41,13 +41,10 @@ export const Slider = () => {
                     <Swiper
                         slidesPerView={slideView}
                         spaceBetween={10}
-                        // pagination={{ clickable: true }}
+                        pagination={{ clickable: true }}
                         navigation={true}
-                        modules={[Pagination, Navigation, Scrollbar]}
+                        modules={[Pagination, Navigation]}
                         className="mySwiper"
-                        scrollbar={{
-                            hide: false,
-                        }}
                     >
                         {jornada.cards.map((card, idx) => (
                             <SwiperSlide key={`${index}-${idx}`}>
