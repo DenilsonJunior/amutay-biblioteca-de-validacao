@@ -1,12 +1,18 @@
-h1 {
-    color: white;
+h2 {
+    color: white !important;
     margin: 0 5%;
+    @media (max-width: 650px) {
+        text-align: center;
+    }
 }
 
 .swiper {
     width: 100%;
-    padding: 1rem 5% 3rem;
-    margin-bottom: 2rem;
+    padding: 1rem 5% 2rem;
+    margin-bottom: 1rem;
+    @media (max-width: 650px) {
+        padding: 1rem 15% 2rem;
+    }
 }
   
 .swiper-slide {
@@ -14,4 +20,39 @@ h1 {
     background-size: cover;
     /* width: 30rem;
     /* height: 30rem; */
+}
+
+.swiper-wrapper {
+    /* margin: 0 0 1rem; */
+}
+
+.swiper-scrollbar-drag {
+    background-color: white !important;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: white;
+    filter: drop-shadow(0.2rem 0.2rem 0.3rem #0008);
+    top: 0;
+    width: 5%;
+    height: 100%;
+    /* background-color: red; */
+    /* backdrop-filter: blur(.1rem); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: 650px) {
+        width: 10%;
+    }
+}
+.swiper-button-prev {
+    left: 0;
+}
+.swiper-button-next {
+    right: 0;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: white !important;
+    filter: drop-shadow(0.2rem 0.2rem 0.3rem #0008);
 }

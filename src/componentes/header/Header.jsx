@@ -5,6 +5,7 @@ export const Header = () => {
     return (
         <Cabecalho>
             <img className="logo" src="./assets/img/logo.png" alt="Logo da empresa" />
+            <h1>ValidaLib</h1>
         </Cabecalho>
     );
 };

@@ -4,8 +4,9 @@ import { useState, useEffect } from 'react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import 'swiper/css/scrollbar';
 import './styles.css';
-import { Pagination, Navigation } from 'swiper/modules';
+import { Pagination, Navigation, Scrollbar } from 'swiper/modules';
 import { Card } from '../card/Card';
 import itens from './itens.json'; // Importar o JSON
 
@@ -14,8 +15,8 @@ export const Slider = () => {
 
     useEffect(() => {
         function handleResize() {
-            if (window.innerWidth < 480) {
-                setSlideView(2);
+            if (window.innerWidth < 650) {
+                setSlideView(1);
             } else if (window.innerWidth < 1080) {
                 setSlideView(3);
             } else {
@@ -36,14 +37,17 @@ export const Slider = () => {
         <>
             {itens.map((jornada, index) => (
                 <div key={index}>
-                    <h1>{jornada.jornada}</h1>
+                    <h2>{jornada.jornada}</h2>
                     <Swiper
                         slidesPerView={slideView}
                         spaceBetween={10}
-                        pagination={{ clickable: true }}
+                        // pagination={{ clickable: true }}
                         navigation={true}
-                        modules={[Pagination, Navigation]}
+                        modules={[Pagination, Navigation, Scrollbar]}
                         className="mySwiper"
+                        scrollbar={{
+                            hide: false,
+                        }}
                     >
                         {jornada.cards.map((card, idx) => (
                             <SwiperSlide key={`${index}-${idx}`}>

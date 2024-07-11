@@ -6,10 +6,10 @@ export const CardItem = styled.div`
         height: 100%;
         text-decoration: none;
         /* filter: grayscale(.2); */
-        filter: contrast(90%);
+        /* filter: contrast(90%); */
         transition-duration: .3s;
         &:hover {
-            filter: contrast(110%);
+            /* filter: contrast(110%); */
             .card {
                 .title {
                     transition-duration: .3s;
@@ -18,16 +18,17 @@ export const CardItem = styled.div`
             }
         }
         .card {
-            background-color: rgba(255, 255, 255, .1);
+            /* background-color: rgba(255, 255, 255, .1); */
+            background-color: #101b25;
             width: 100%;
             height: auto;
             padding: 1rem;
-            box-shadow: 0.3rem 0.3rem 0.4rem rgba(255, 255, 255, 0.1);
-            border-radius: .3rem;
+            box-shadow: 0.3rem 0.3rem 0.4rem rgba(0, 0, 0, .4);
             position: relative;
             display: block;
             overflow: hidden;
-            border-radius: 1rem;
+            border-bottom: solid .2rem white;
+            /* border-radius: 1rem; */
             .pn {
                 background-color: #000;
                 position: absolute;
