@@ -60,6 +60,7 @@ export const CardItem = styled.div`
                 padding: 0rem .2rem;
                 overflow: hidden;
                 img {
+                    transition-duration: .3s;
                     width: 100%;
                     height: auto;
                     /* background-color: #0005; */
@@ -106,6 +107,9 @@ export const CardItem = styled.div`
 
             &:hover {
                 .boxImage {
+                    img {
+                        tranform: scale(1.5)
+                    }
                     .boxPlay {
                         display: flex;
                     }
