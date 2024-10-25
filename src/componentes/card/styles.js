@@ -53,7 +53,7 @@ export const CardItem = styled.div`
                 position: relative;
                 width: auto;
                 height: auto;
-                aspect-ratio: 1 / 0.5;
+                aspect-ratio: 1 / 0.55;
                 ove
                 animation-duration: .5s;
                 border: solid .1rem white;
