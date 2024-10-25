@@ -54,9 +54,11 @@ export const CardItem = styled.div`
                 width: auto;
                 height: auto;
                 aspect-ratio: 1 / 0.5;
+                ove
                 animation-duration: .5s;
                 border: solid .1rem white;
                 padding: 0rem .2rem;
+                overflow: hidden;
                 img {
                     width: 100%;
                     height: auto;
