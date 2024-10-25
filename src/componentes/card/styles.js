@@ -53,6 +53,7 @@ export const CardItem = styled.div`
                 position: relative;
                 width: auto;
                 height: auto;
+                aspect-ratio: 1 / 0.5;
                 animation-duration: .5s;
                 border: solid .1rem white;
                 padding: 0rem .2rem;
