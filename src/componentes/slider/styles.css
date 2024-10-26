@@ -56,5 +56,5 @@ h1 {
 
 .swiper-pagination-bullet-active {
     background-color: #6c9089 !important;
-    filter: drop-shadow(0.2rem 0.2rem 0.3rem #0008);
+    /* filter: drop-shadow(0.2rem 0.2rem 0.3rem #0008); */
 }
