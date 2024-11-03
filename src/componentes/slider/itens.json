@@ -1,16 +1,26 @@
 [
     {
+        "jornada": "Jornada - 6",
+        "cards": [
+            {
+                "link": "https://lib5-pn06.vercel.app/",
+                "img": "proj5-06.jpg",
+                "title": "Matemática e cotidiano"
+            },
+            {
+                "link": "https://lib5-pn08.vercel.app/",
+                "img": "proj5-08.jpg",
+                "title": "Estratégias para docentes"
+            }
+        ]
+    },
+    {
         "jornada": "Jornada - 5",
         "cards": [
             {
                 "link": "https://lib5-pn05.vercel.app/",
                 "img": "proj5-05.jpg",
                 "title": "Contexto social e o enfrentamento do racismo"
-            },
-            {
-                "link": "https://lib5-pn06.vercel.app/",
-                "img": "proj5-06.jpg",
-                "title": "Matemática e cotidiano"
             },
             {
                 "link": "https://lib5-pn07.vercel.app/",
