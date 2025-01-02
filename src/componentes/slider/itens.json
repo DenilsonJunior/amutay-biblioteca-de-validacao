@@ -1,5 +1,20 @@
 [
     {
+        "jornada": "Jornada - 6",
+        "cards": [
+            {
+                "link": "https://lib7-pn05.vercel.app/",
+                "img": "proj7-05.jpg",
+                "title": "Por que monitorar e avaliar projetos, programas e políticas públicas?"
+            },
+            {
+                "link": "https://lib7-pn09.vercel.app/",
+                "img": "proj7-09.jpg",
+                "title": "Monitorar e avaliar: por onde começar?"
+            }
+        ]
+    },
+    {
         "jornada": "Jornada - 7",
         "cards": [
             {
